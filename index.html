@@ -1,0 +1,53 @@
+        <!DOCTYPE html>
+<html>
+<head>
+    <title>Password Page</title>
+    <style>
+        body {
+            background-color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        #password-form {
+            margin: 100px auto;
+            width: 300px;
+        }
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #008B8B;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+      <h1>ARIHANT JEE MAINS PYQ</h1><br><p>IDIOT! IT'S PAID ONE
+       SO ENTER CORRECT PASSWORD TO ACCESS IT.</p>
+    <div id="password-form">
+        <h2>Enter Password:</h2>
+        <input type="password" id="password-input">
+        <button onclick="checkPassword()">Submit</button>
+    </div>
+    
+    <script>
+    alert("Thank me later, Regards NK");
+        function checkPassword() {
+            var password = document.getElementById("password-input").value;
+            
+            // Replace "yourpassword" with your actual password
+            if (password === "THE ONEPIECE IS REAL") {
+                document.body.style.backgroundColor = "aqua";
+                window.location.href = "https://t.ly/onepieceost"; // Redirect to the desired link
+            } else {
+                alert("YOU DUMBASS!");
+            }
+        }
+    </script>
+</body>
+</html>
