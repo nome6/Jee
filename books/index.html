@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Button Redirects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .button-container {
+            margin: 50px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #008B8B;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button class="button" onclick="redirect1()">CHEMISTRY</button><br>
+        <button class="button" onclick="redirect2()">PHYSICS</button><br>
+        <button class="button" onclick="redirect3()">MATHS</button>
+    </div>
+
+    <script>
+        function redirect1() {
+            window.location.href = "https://nome6.github.io/Jee/chem/";
+        }
+
+        function redirect2() {
+            window.location.href = "https://nome6.github.io/Jee/phy/";
+        }
+
+        function redirect3() {
+            window.location.href = "https://nome6.github.io/Jee/mat/";
+        }
+    </script>
+</body>
+</html>
